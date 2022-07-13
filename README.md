@@ -39,7 +39,7 @@ slug: /
 
 <br />
 
-## **** Install Guide
+## Install Guide
 <br />
 <br />
 ## ** Download **
