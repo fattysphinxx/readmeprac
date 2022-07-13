@@ -157,9 +157,6 @@ This project exists thanks to all the people who contribute. [[Contribute](https
 
 -------
 
-<a href="https://www.chancetheapp.com" target="_blank">
-	<img src="https://user-images.githubusercontent.com/16529337/52699787-dbb17f80-2f76-11e9-9657-c103d4e89d88.png" height="75" />
-</a>
 
 ---
 
