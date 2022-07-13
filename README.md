@@ -39,11 +39,10 @@ slug: /
 
 <br />
 
-## ****
+## **** Install Guide
 ```elm
-pip install instapy
+pip install -r requirements.txt
 ```
-__Important:__ depending on your system, make sure to use `pip3` and `python3` instead.
 
 
 **That's it! 🚀**   
