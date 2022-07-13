@@ -39,61 +39,57 @@ slug: /
 
 <br />
 
-### Install Guide
-<br />
-<br />
+## Install Guide
+
+
+
 ## ** Download **
+
 # * Download frontend repository **
 https://github.com/SCC-AI-3/Spartagora_Front
-<br />
-<br />
+
 # * Download backend repository **
 https://github.com/SCC-AI-3/Spartagora_Back
-<br />
-<br />
+
 ## ** unzip both files **
 <img width="213" alt="Screen Shot 2022-07-13 at 11 30 29 PM" src="https://user-images.githubusercontent.com/104494448/178758959-6a4dfb0f-371c-410f-ab59-95218858fbfd.png">
-<br />
-<br />
+
 ## ** setting venv **
-<br />
 # * for mac *
 ```elm
 python -m venv venv
 ```
-<br />
+
 ```elm
 source venv/bin/activate
 ```
-<br />
+
 ```elm
 pip install -r requirements.txt
 ```
-<br />
+
 # * for window * 
-<br />
-<br />
+
+
 ## ** create admin, set up DB **
-<br />
+
 in spartagora_front project
 ```elm
 python manage.py makemigrations > python manage.py migrate > python manage.py createsuperuser
 ```
-<br />
-<br />
+
 ## ** open localhost **
-<br />
+
 in spartagora_front project (port number 8000)
 ```elm
 use live server or else 
 ```
-<br />
+
 in spartagora_back project (port number 5000)
 ```elm
 python manage.py runserver
 ```
-<br />
-<br />
+
 ## ** And Joy it! **
 
 
