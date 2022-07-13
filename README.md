@@ -60,9 +60,11 @@ https://github.com/SCC-AI-3/Spartagora_Back
 ```elm
 python -m venv venv
 ```
+<br />
 ```elm
 source venv/bin/activate
 ```
+<br />
 ```elm
 pip install -r requirements.txt
 ```
