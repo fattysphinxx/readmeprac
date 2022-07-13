@@ -40,18 +40,52 @@ slug: /
 <br />
 
 ## **** Install Guide
+
+## ** Download frontend repository **
+https://github.com/SCC-AI-3/Spartagora_Front
+## ** Download backend repository **
+https://github.com/SCC-AI-3/Spartagora_Back
+
+## ** unzip both files **
+<img width="213" alt="Screen Shot 2022-07-13 at 11 30 29 PM" src="https://user-images.githubusercontent.com/104494448/178758959-6a4dfb0f-371c-410f-ab59-95218858fbfd.png">
+
+## ** setting venv **
+## * for mac *
+```elm
+python -m venv venv
+```
+```elm
+source venv/bin/activate
+```
 ```elm
 pip install -r requirements.txt
 ```
+## * for window * 
+
+## ** create admin, set up DB **
+in spartagora_front project
+```elm
+python manage.py makemigrations > python manage.py migrate > python manage.py createsuperuser
+```
+
+## ** open localhost **
+in spartagora_front project (port number 8000)
+```elm
+use live server or else 
+```
+
+in spartagora_back project (port number 5000)
+```elm
+python manage.py runserver
+```
+
+## ** And Joy it! **
 
 
-**That's it! 🚀**   
-If you're on Ubuntu, read the specific guide on [Installing on Ubuntu (64-Bit)](https://github.com/InstaPy/instapy-docs/blob/master/How_Tos/How_To_DO_Ubuntu_on_Digital_Ocean.md). If you're on a Raspberry Pi, read the [Installing on RaspberryPi](https://github.com/InstaPy/instapy-docs/blob/master/How_Tos/How_to_Raspberry.md) guide instead.
 
->If you would like to install a specific version of Instapy you may do so with:
->```elm
->pip install instapy==0.1.1
->```
+
+
+
 
 #### Running Instapy
 
