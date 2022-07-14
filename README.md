@@ -39,23 +39,23 @@ slug: /
 
 <br />
 
-## Install Guide
+# Install Guide
 
 
 
 ## ** Download **
 
-# * Download frontend repository **
+### * Download frontend repository **
 https://github.com/SCC-AI-3/Spartagora_Front
 
-# * Download backend repository **
+### * Download backend repository **
 https://github.com/SCC-AI-3/Spartagora_Back
 
-## ** unzip both files **
+### ** unzip both files **
 <img width="213" alt="Screen Shot 2022-07-13 at 11 30 29 PM" src="https://user-images.githubusercontent.com/104494448/178758959-6a4dfb0f-371c-410f-ab59-95218858fbfd.png">
 
-## ** setting venv **
-# * for mac *
+### ** setting venv **
+#### * for mac *
 ```elm
 python -m venv venv
 ```
@@ -68,7 +68,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# * for window * 
+####
+* for window * 
 
 
 ## ** create admin, set up DB **
